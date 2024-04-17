@@ -1,0 +1,214 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que Node.js?",
+            "reponses": {
+                "rep1": "Un framework de développement web",
+                "rep2": "Un moteur de base de données",
+                "rep3": "Un environnement d'exécution JavaScript côté serveur",
+                "rep4": "Un éditeur de texte"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quel moteur JavaScript est utilisé par Node.js?",
+            "reponses": {
+                "rep1": "V8",
+                "rep2": "SpiderMonkey",
+                "rep3": "Rhino",
+                "rep4": "Chakra"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Qu'est-ce que npm?",
+            "reponses": {
+                "rep1": "Node Package Manager, un gestionnaire de paquets pour Node.js",
+                "rep2": "Un environnement de développement intégré pour Node.js",
+                "rep3": "Un langage de programmation",
+                "rep4": "Un serveur web"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle commande est utilisée pour initialiser un projet Node.js avec npm?",
+            "reponses": {
+                "rep1": "npm init",
+                "rep2": "node init",
+                "rep3": "init npm",
+                "rep4": "node create"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la fonction principale de package.json dans un projet Node.js?",
+            "reponses": {
+                "rep1": "Définir les dépendances du projet et les scripts de démarrage",
+                "rep2": "Définir la structure du projet",
+                "rep3": "Gérer les connexions à la base de données",
+                "rep4": "Fournir une interface utilisateur pour le projet"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour inclure des modules dans un fichier JavaScript Node.js?",
+            "reponses": {
+                "rep1": "require()",
+                "rep2": "import()",
+                "rep3": "include()",
+                "rep4": "import_module()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre les modules Core et les modules NPM en Node.js?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep2": "Les modules Core sont inclus dans l'installation de Node.js, tandis que les modules NPM doivent être installés séparément",
+                "rep3": "Les modules Core sont uniquement destinés aux projets commerciaux, tandis que les modules NPM sont gratuits",
+                "rep4": "Les modules Core sont plus performants que les modules NPM"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la différence entre les méthodes readFile() et readFileSync() dans Node.js?",
+            "reponses": {
+                "rep1": "readFile() est synchrone, tandis que readFileSync() est asynchrone",
+                "rep2": "readFileSync() est synchrone, tandis que readFile() est asynchrone",
+                "rep3": "Il n'y a pas de différence, ce sont des méthodes interchangeables",
+                "rep4": "readFile() lit le fichier dans un thread séparé, tandis que readFileSync() lit le fichier dans le thread principal"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle méthode est utilisée pour créer un serveur HTTP dans Node.js?",
+            "reponses": {
+                "rep1": "createServer()",
+                "rep2": "startServer()",
+                "rep3": "runServer()",
+                "rep4": "initServer()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Qu'est-ce que Express.js?",
+            "reponses": {
+                "rep1": "Un gestionnaire de bases de données",
+                "rep2": "Un framework pour construire des applications web en Node.js",
+                "rep3": "Un langage de programmation",
+                "rep4": "Un système de gestion de versions"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode principale utilisée pour gérer les routes dans Express.js?",
+            "reponses": {
+                "rep1": "handle()",
+                "rep2": "route()",
+                "rep3": "use()",
+                "rep4": "get()"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour exécuter des requêtes SQL dans Node.js?",
+            "reponses": {
+                "rep1": "query()",
+                "rep2": "execute()",
+                "rep3": "run()",
+                "rep4": "sql()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre un callback et une Promise en Node.js?",
+            "reponses": {
+                "rep1": "Un callback est synchrone, tandis qu'une Promise est asynchrone",
+                "rep2": "Un callback est asynchrone, tandis qu'une Promise est synchrone",
+                "rep3": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep4": "Une Promise est une fonction de rappel"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour gérer les erreurs asynchrones en Node.js?",
+            "reponses": {
+                "rep1": "try-catch",
+                "rep2": "error()",
+                "rep3": "catch()",
+                "rep4": "handle()"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour arrêter l'exécution d'un processus Node.js?",
+            "reponses": {
+                "rep1": "exit()",
+                "rep2": "terminate()",
+                "rep3": "stop()",
+                "rep4": "end()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Qu'est-ce que MongoDB?",
+            "reponses": {
+                "rep1": "Un langage de programmation",
+                "rep2": "Un système de gestion de bases de données relationnelles",
+                "rep3": "Un système de gestion de bases de données NoSQL",
+                "rep4": "Un framework JavaScript"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour installer un paquet NPM de manière globale?",
+            "reponses": {
+                "rep1": "npm global install",
+                "rep2": "npm add global",
+                "rep3": "npm install -g",
+                "rep4": "npm install --global"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la différence entre res.send() et res.json() dans Express.js?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des méthodes interchangeables",
+                "rep2": "res.send() renvoie des données au format texte, tandis que res.json() renvoie des données au format JSON",
+                "rep3": "res.json() renvoie des données au format texte, tandis que res.send() renvoie des données au format JSON",
+                "rep4": "res.send() est synchrone, tandis que res.json() est asynchrone"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour écouter les connexions sur un port spécifique dans Node.js?",
+            "reponses": {
+                "rep1": "listen()",
+                "rep2": "start()",
+                "rep3": "run()",
+                "rep4": "connect()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode principale utilisée pour traiter les requêtes HTTP dans Node.js?",
+            "reponses": {
+                "rep1": "handleRequest()",
+                "rep2": "handleRequest()",
+                "rep3": "handleRequest()",
+                "rep4": "handleRequest()"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la différence entre une application web synchrone et asynchrone en Node.js?",
+            "reponses": {
+                "rep1": "Une application synchrone utilise des callbacks, tandis qu'une application asynchrone utilise des Promises",
+                "rep2": "Une application asynchrone utilise des callbacks, tandis qu'une application synchrone utilise des Promises",
+                "rep3": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep4": "Une application synchrone est plus rapide qu'une application asynchrone"
+            },
+            "correcte": "rep1"
+        }
+    ]
+}

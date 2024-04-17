@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que React?",
+            "reponses": {
+                "rep1": "Un langage de programmation",
+                "rep2": "Un framework JavaScript pour la construction d'interfaces utilisateur",
+                "rep3": "Un serveur web",
+                "rep4": "Un système de gestion de base de données"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Qu'est-ce que JSX?",
+            "reponses": {
+                "rep1": "JavaScript XML, une syntaxe utilisée pour décrire la structure des interfaces utilisateur en React",
+                "rep2": "Un langage de balisage similaire à HTML",
+                "rep3": "Un système de gestion de bases de données",
+                "rep4": "Une bibliothèque pour la manipulation des données dans React"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre les composants fonctionnels et les composants de classe en React?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep2": "Les composants fonctionnels sont écrits avec des fonctions, tandis que les composants de classe sont écrits avec des classes",
+                "rep3": "Les composants fonctionnels ne peuvent pas être réutilisés, tandis que les composants de classe le peuvent",
+                "rep4": "Les composants fonctionnels sont plus performants que les composants de classe"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle méthode est utilisée pour définir l'état initial d'un composant de classe en React?",
+            "reponses": {
+                "rep1": "initState()",
+                "rep2": "constructor()",
+                "rep3": "state()",
+                "rep4": "initState()"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Qu'est-ce que Redux?",
+            "reponses": {
+                "rep1": "Un langage de programmation",
+                "rep2": "Un framework JavaScript pour la construction d'interfaces utilisateur",
+                "rep3": "Un système de gestion de base de données",
+                "rep4": "Un gestionnaire d'état prévisible pour les applications JavaScript"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quel est le rôle d'un reducer dans Redux?",
+            "reponses": {
+                "rep1": "Gérer les requêtes HTTP",
+                "rep2": "Gérer les actions et mettre à jour l'état de l'application",
+                "rep3": "Gérer les routes de l'application",
+                "rep4": "Gérer les interactions utilisateur"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la différence entre l'état local (local state) et l'état global (global state) dans React?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep2": "L'état local est spécifique à un composant, tandis que l'état global est partagé entre plusieurs composants",
+                "rep3": "L'état local est partagé entre plusieurs composants, tandis que l'état global est spécifique à un composant",
+                "rep4": "L'état local est géré par Redux, tandis que l'état global est géré par React"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle méthode est utilisée pour connecter un composant React à l'état Redux?",
+            "reponses": {
+                "rep1": "connect()",
+                "rep2": "setState()",
+                "rep3": "mapStateToProps()",
+                "rep4": "dispatch()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre dispatch et getState dans Redux?",
+            "reponses": {
+                "rep1": "dispatch est utilisé pour mettre à jour l'état de l'application, tandis que getState est utilisé pour récupérer l'état actuel de l'application",
+                "rep2": "getState est utilisé pour mettre à jour l'état de l'application, tandis que dispatch est utilisé pour récupérer l'état actuel de l'application",
+                "rep3": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep4": "dispatch est utilisé pour gérer les actions asynchrones, tandis que getState est utilisé pour gérer les actions synchrones"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode principale utilisée pour créer une action dans Redux?",
+            "reponses": {
+                "rep1": "createAction()",
+                "rep2": "dispatch()",
+                "rep3": "action()",
+                "rep4": "addAction()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre mapStateToProps et mapDispatchToProps dans React Redux?",
+            "reponses": {
+                "rep1": "mapStateToProps est utilisé pour mapper l'état de Redux aux props du composant, tandis que mapDispatchToProps est utilisé pour mapper les actions de Redux aux props du composant",
+                "rep2": "mapDispatchToProps est utilisé pour mapper l'état de Redux aux props du composant, tandis que mapStateToProps est utilisé pour mapper les actions de Redux aux props du composant",
+                "rep3": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep4": "mapStateToProps et mapDispatchToProps sont utilisés pour mapper l'état de Redux aux props du composant"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour combiner plusieurs reducers en un seul reducer dans Redux?",
+            "reponses": {
+                "rep1": "combineReducers()",
+                "rep2": "mergeReducers()",
+                "rep3": "concatReducers()",
+                "rep4": "reduceReducers()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour fournir le store Redux à une application React?",
+            "reponses": {
+                "rep1": "<Provider store={store}>",
+                "rep2": "<ReduxProvider store={store}>",
+                "rep3": "<StoreProvider store={store}>",
+                "rep4": "<StateProvider store={store}>"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode principale utilisée pour accéder à l'état Redux dans un composant React?",
+            "reponses": {
+                "rep1": "this.state",
+                "rep2": "this.props",
+                "rep3": "this.dispatch",
+                "rep4": "this.getState"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour mettre à jour l'état Redux dans un composant React?",
+            "reponses": {
+                "rep1": "this.setState()",
+                "rep2": "this.dispatch()",
+                "rep3": "this.props()",
+                "rep4": "this.updateState()"
+            },
+            "correcte": "rep2"
+        }
+    ]
+}

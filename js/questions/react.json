@@ -1,0 +1,204 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que signifie CSS?",
+            "reponses": {
+                "rep1": "Cascading Style Sheets",
+                "rep2": "Creative Style Sheets",
+                "rep3": "Computer Style Sheets",
+                "rep4": "Colorful Style Sheets"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel langage est utilisé pour ajouter du style et de l'interactivité aux pages web?",
+            "reponses": {
+                "rep1": "HTML",
+                "rep2": "CSS",
+                "rep3": "JavaScript",
+                "rep4": "Python"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle méthode est utilisée pour déclarer une variable en JavaScript?",
+            "reponses": {
+                "rep1": "let",
+                "rep2": "variable",
+                "rep3": "var",
+                "rep4": "int"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est le résultat de l'expression 5 + '2' en JavaScript?",
+            "reponses": {
+                "rep1": "7",
+                "rep2": "52",
+                "rep3": "Erreur",
+                "rep4": "32"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est le principal avantage de l'utilisation de JavaScript?",
+            "reponses": {
+                "rep1": "Ajout de style",
+                "rep2": "Interactivité",
+                "rep3": "Structure de la page",
+                "rep4": "Définition des données"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est le sélecteur CSS pour sélectionner un élément par son ID?",
+            "reponses": {
+                "rep1": "#",
+                "rep2": ".",
+                "rep3": "*",
+                "rep4": "&"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est le résultat de l'expression 10 == '10' en JavaScript?",
+            "reponses": {
+                "rep1": "true",
+                "rep2": "false",
+                "rep3": "Erreur",
+                "rep4": "null"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est le résultat de l'expression typeof null en JavaScript?",
+            "reponses": {
+                "rep1": "null",
+                "rep2": "undefined",
+                "rep3": "object",
+                "rep4": "string"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quel est l'élément racine de tous les éléments HTML?",
+            "reponses": {
+                "rep1": "<head>",
+                "rep2": "<html>",
+                "rep3": "<body>",
+                "rep4": "<title>"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est l'opérateur logique ET en JavaScript?",
+            "reponses": {
+                "rep1": "&&",
+                "rep2": "||",
+                "rep3": "!",
+                "rep4": "?"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle balise HTML est utilisée pour créer une liste non ordonnée?",
+            "reponses": {
+                "rep1": "<ul>",
+                "rep2": "<ol>",
+                "rep3": "<li>",
+                "rep4": "<dl>"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle méthode est utilisée pour ajouter un élément à la fin d'un tableau en JavaScript?",
+            "reponses": {
+                "rep1": "push()",
+                "rep2": "append()",
+                "rep3": "addToEnd()",
+                "rep4": "concat()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est l'événement JavaScript qui se déclenche lorsqu'un utilisateur clique sur un élément HTML?",
+            "reponses": {
+                "rep1": "onmouseclick",
+                "rep2": "onhover",
+                "rep3": "onclick",
+                "rep4": "onselect"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quel est le résultat de l'expression typeof [] en JavaScript?",
+            "reponses": {
+                "rep1": "array",
+                "rep2": "object",
+                "rep3": "array-like",
+                "rep4": "null"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est l'attribut HTML utilisé pour spécifier l'URL d'une image?",
+            "reponses": {
+                "rep1": "src",
+                "rep2": "href",
+                "rep3": "link",
+                "rep4": "url"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle méthode est utilisée pour sélectionner un élément par son ID en JavaScript?",
+            "reponses": {
+                "rep1": "getElementById()",
+                "rep2": "selectByID()",
+                "rep3": "querySelector()",
+                "rep4": "findByID()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est l'opérateur de comparaison 'non-strict' en JavaScript?",
+            "reponses": {
+                "rep1": "==",
+                "rep2": "===",
+                "rep3": "!=",
+                "rep4": "!=="
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est le résultat de l'expression typeof NaN en JavaScript?",
+            "reponses": {
+                "rep1": "NaN",
+                "rep2": "number",
+                "rep3": "undefined",
+                "rep4": "string"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle  méthode JavaScript utilisée pour découper une string en un array de sous-chaînes?",
+            "reponses": {
+                "rep1": "split()",
+                "rep2": "slice()",
+                "rep3": "concat()",
+                "rep4": "substring()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est le résultat de l'expression 10 % 3 en JavaScript?",
+            "reponses": {
+                "rep1": "1",
+                "rep2": "3",
+                "rep3": "0.3",
+                "rep4": "3.333"
+            },
+            "correcte": "rep1"
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que MERN stack?",
+            "reponses": {
+                "rep1": "Un ensemble de technologies pour le développement web",
+                "rep2": "Un framework JavaScript",
+                "rep3": "Un modèle de base de données",
+                "rep4": "Une méthode pour crypter les données"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est le rôle de MongoDB dans la stack MERN?",
+            "reponses": {
+                "rep1": "Base de données relationnelle",
+                "rep2": "Serveur HTTP",
+                "rep3": "Base de données NoSQL",
+                "rep4": "Serveur d'applications"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Qu'est-ce qu'Express.js?",
+            "reponses": {
+                "rep1": "Un langage de programmation",
+                "rep2": "Un framework JavaScript pour la création d'API web",
+                "rep3": "Une bibliothèque JavaScript pour la création d'interfaces utilisateur",
+                "rep4": "Un système de gestion de base de données"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est le rôle de React.js dans la stack MERN?",
+            "reponses": {
+                "rep1": "Base de données",
+                "rep2": "Serveur",
+                "rep3": "Framework d'interface utilisateur",
+                "rep4": "Serveur d'applications"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quel est le langage de programmation principal pour le développement côté serveur dans la stack MERN?",
+            "reponses": {
+                "rep1": "Python",
+                "rep2": "Ruby",
+                "rep3": "JavaScript (avec Node.js)",
+                "rep4": "Java"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la différence entre npm et yarn?",
+            "reponses": {
+                "rep1": "npm est un gestionnaire de paquets JavaScript créé par Facebook, tandis que yarn est créé par Google",
+                "rep2": "npm est un gestionnaire de paquets JavaScript créé par Google, tandis que yarn est créé par Facebook",
+                "rep3": "Il n'y a pas de différence, ce sont des outils similaires",
+                "rep4": "npm est un gestionnaire de paquets pour les applications mobiles, tandis que yarn est pour les applications web"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle commande est utilisée pour démarrer un serveur Node.js?",
+            "reponses": {
+                "rep1": "node start",
+                "rep2": "node server",
+                "rep3": "node run",
+                "rep4": "node app"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quelle commande est utilisée pour créer un nouveau projet React?",
+            "reponses": {
+                "rep1": "create-react-app",
+                "rep2": "react create",
+                "rep3": "react init",
+                "rep4": "new-react-project"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la fonction principale de mongoose dans une application MERN?",
+            "reponses": {
+                "rep1": "Envoyer des requêtes HTTP au serveur",
+                "rep2": "Gérer les états de l'application",
+                "rep3": "Interagir avec la base de données MongoDB",
+                "rep4": "Afficher l'interface utilisateur"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle méthode est utilisée pour définir les routes dans une application Express.js?",
+            "reponses": {
+                "rep1": "setRoute()",
+                "rep2": "route()",
+                "rep3": "use()",
+                "rep4": "defineRoute()"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est l'avantage principal de l'utilisation de MongoDB dans une application MERN?",
+            "reponses": {
+                "rep1": "Il est facile à utiliser pour les débutants",
+                "rep2": "Il utilise le langage SQL pour les requêtes",
+                "rep3": "Il permet un stockage flexible des données non structurées",
+                "rep4": "Il est compatible avec toutes les plateformes de cloud computing"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la bibliothèque JavaScript utilisée pour gérer les états de l'interface utilisateur dans une application React.js?",
+            "reponses": {
+                "rep1": "Redux",
+                "rep2": "Axios",
+                "rep3": "Mongoose",
+                "rep4": "React Router"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour installer un paquet npm de façon globale?",
+            "reponses": {
+                "rep1": "npm install -g",
+                "rep2": "npm install --global",
+                "rep3": "npm install --save",
+                "rep4": "npm install --global-package"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode principale pour interagir avec une base de données MongoDB en utilisant mongoose?",
+            "reponses": {
+                "rep1": "connect()",
+                "rep2": "find()",
+                "rep3": "query()",
+                "rep4": "update()"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est l'outil utilisé pour gérer les dépendances dans un projet Node.js?",
+            "reponses": {
+                "rep1": "npm",
+                "rep2": "yarn",
+                "rep3": "bower",
+                "rep4": "grunt"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour lancer une application React en mode développement?",
+            "reponses": {
+                "rep1": "npm start",
+                "rep2": "npm run dev",
+                "rep3": "npm run start",
+                "rep4": "npm run react"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est le modèle de conception principalement utilisé pour structurer une application React.js?",
+            "reponses": {
+                "rep1": "Modèle-Vue-Contrôleur (MVC)",
+                "rep2": "Modèle-Vue-Modèle (MVM)",
+                "rep3": "Modèle-Vue-Présentation (MVP)",
+                "rep4": "Modèle-Vue-Modèle-Vue (MVVM)"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour installer Express.js dans un projet Node.js?",
+            "reponses": {
+                "rep1": "npm install express",
+                "rep2": "npm add express",
+                "rep3": "npm express",
+                "rep4": "npm express --save"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour installer mongoose dans un projet Node.js?",
+            "reponses": {
+                "rep1": "npm mongoose install",
+                "rep2": "npm install mongoose",
+                "rep3": "npm add mongoose",
+                "rep4": "npm mongoose"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Qu'est-ce que le middleware dans une application Express.js?",
+            "reponses": {
+                "rep1": "Un logiciel de sécurité",
+                "rep2": "Une fonction qui reçoit la demande HTTP, effectue une action, puis transmet la demande à une autre fonction",
+                "rep3": "Une fonctionnalité permettant de crypter les données",
+                "rep4": "Un système de gestion des erreurs"
+            },
+            "correcte": "rep2"
+        }
+    ]
+}

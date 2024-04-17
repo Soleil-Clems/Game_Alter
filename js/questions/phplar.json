@@ -1,0 +1,194 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que Laravel?",
+            "reponses": {
+                "rep1": "Un langage de programmation",
+                "rep2": "Un framework PHP",
+                "rep3": "Un système de gestion de base de données",
+                "rep4": "Un serveur web"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est l'avantage principal de l'utilisation de Laravel par rapport au développement PHP traditionnel?",
+            "reponses": {
+                "rep1": "Facilite la syntaxe PHP",
+                "rep2": "Offre une meilleure sécurité",
+                "rep3": "Facilite la connexion à la base de données",
+                "rep4": "Fournit une interface graphique pour le développement"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Qu'est-ce que Composer dans le contexte de Laravel?",
+            "reponses": {
+                "rep1": "Un éditeur de texte",
+                "rep2": "Un serveur web",
+                "rep3": "Un gestionnaire de dépendances PHP",
+                "rep4": "Un système de gestion de versions"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle commande est utilisée pour installer Laravel via Composer?",
+            "reponses": {
+                "rep1": "composer create-project laravel/laravel",
+                "rep2": "laravel new project",
+                "rep3": "php laravel install",
+                "rep4": "composer install laravel"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la structure principale d'un projet Laravel?",
+            "reponses": {
+                "rep1": "Modèle-Vue-Contrôleur (MVC)",
+                "rep2": "Modèle-Vue-Modèle (MVM)",
+                "rep3": "Modèle-Vue-Présentation (MVP)",
+                "rep4": "Modèle-Vue-Modèle-Vue-Contrôleur (MVVC)"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre une migration et un seeder dans Laravel?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep2": "Une migration crée ou modifie la structure de la base de données, tandis qu'un seeder remplit la base de données avec des données de test",
+                "rep3": "Une migration est utilisée pour déployer l'application sur un serveur, tandis qu'un seeder est utilisé pour gérer les utilisateurs",
+                "rep4": "Une migration est utilisée pour gérer les dépendances de l'application, tandis qu'un seeder est utilisé pour gérer les ressources statiques"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle commande est utilisée pour exécuter les migrations en Laravel?",
+            "reponses": {
+                "rep1": "php artisan migrate",
+                "rep2": "php artisan run migrations",
+                "rep3": "php artisan execute migrations",
+                "rep4": "laravel migrate"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre une route GET et une route POST dans Laravel?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des types de routes interchangeables",
+                "rep2": "Une route GET est utilisée pour récupérer des données, tandis qu'une route POST est utilisée pour envoyer des données au serveur",
+                "rep3": "Une route GET est utilisée pour envoyer des données au serveur, tandis qu'une route POST est utilisée pour récupérer des données",
+                "rep4": "Une route GET est utilisée pour les demandes sécurisées, tandis qu'une route POST est utilisée pour les demandes non sécurisées"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour créer un nouveau contrôleur en Laravel?",
+            "reponses": {
+                "rep1": "php artisan controller:create MyController",
+                "rep2": "php artisan make:controller MyController",
+                "rep3": "laravel new controller MyController",
+                "rep4": "composer create-controller MyController"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode principale utilisée pour afficher une vue dans un contrôleur Laravel?",
+            "reponses": {
+                "rep1": "return view('myview')",
+                "rep2": "show('myview')",
+                "rep3": "render('myview')",
+                "rep4": "display('myview')"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre une blade view et une vue régulière dans Laravel?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep2": "Une blade view utilise le moteur de template Blade de Laravel, tandis qu'une vue régulière utilise PHP pur",
+                "rep3": "Une blade view est utilisée pour les pages statiques, tandis qu'une vue régulière est utilisée pour les pages dynamiques",
+                "rep4": "Une blade view est utilisée pour les applications web, tandis qu'une vue régulière est utilisée pour les applications mobiles"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour valider les données dans un formulaire Laravel?",
+            "reponses": {
+                "rep1": "validate()",
+                "rep2": "check()",
+                "rep3": "verify()",
+                "rep4": "submit()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour afficher des messages flash dans Laravel?",
+            "reponses": {
+                "rep1": "flash()",
+                "rep2": "message()",
+                "rep3": "session()->flash()",
+                "rep4": "display()->flash()"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la différence entre une session et un cookie dans Laravel?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep2": "Une session stocke des données sur le serveur, tandis qu'un cookie stocke des données sur le client",
+                "rep3": "Une session stocke des données sur le client, tandis qu'un cookie stocke des données sur le serveur",
+                "rep4": "Une session stocke des données dans une base de données, tandis qu'un cookie stocke des données dans un fichier texte"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour envoyer des e-mails dans Laravel?",
+            "reponses": {
+                "rep1": "mail()",
+                "rep2": "send()",
+                "rep3": "email()",
+                "rep4": "sendMail()"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour lancer le serveur de développement dans Laravel?",
+            "reponses": {
+                "rep1": "php artisan run",
+                "rep2": "php artisan serve",
+                "rep3": "laravel serve",
+                "rep4": "artisan run serve"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode principale utilisée pour gérer les erreurs dans Laravel?",
+            "reponses": {
+                "rep1": "handleError()",
+                "rep2": "catchError()",
+                "rep3": "try-catch",
+                "rep4": "handle()"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour générer une URL dans Laravel?",
+            "reponses": {
+                "rep1": "url()",
+                "rep2": "route()",
+                "rep3": "generateUrl()",
+                "rep4": "makeUrl()"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour accéder aux données de la session dans Laravel?",
+            "reponses": {
+                "rep1": "session()->get()",
+                "rep2": "session()->access()",
+                "rep3": "session()->fetch()",
+                "rep4": "session()->retrieve()"
+            },
+            "correcte": "rep1"
+        }
+    ]
+}

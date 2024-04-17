@@ -1,0 +1,204 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que Flutter?",
+            "reponses": {
+                "rep1": "Un langage de programmation",
+                "rep2": "Un framework de développement d'interface utilisateur",
+                "rep3": "Un système de gestion de base de données",
+                "rep4": "Un service de cloud computing"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel langage de programmation est principalement utilisé pour développer des applications avec Flutter?",
+            "reponses": {
+                "rep1": "JavaScript",
+                "rep2": "Python",
+                "rep3": "Dart",
+                "rep4": "Java"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la principale caractéristique de Flutter en ce qui concerne le développement multiplateforme?",
+            "reponses": {
+                "rep1": "Il compile du code natif pour chaque plateforme",
+                "rep2": "Il utilise des machines virtuelles différentes pour chaque plateforme",
+                "rep3": "Il traduit le code en langage machine universel",
+                "rep4": "Il utilise un seul codebase pour plusieurs plateformes"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quel widget Flutter est utilisé pour créer une mise en page à colonnes multiples?",
+            "reponses": {
+                "rep1": "Column",
+                "rep2": "Row",
+                "rep3": "Stack",
+                "rep4": "Grid"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle fonctionnalité de Flutter permet de définir le style visuel d'une application?",
+            "reponses": {
+                "rep1": "Flutter Stylesheets",
+                "rep2": "Flutter Styling Engine",
+                "rep3": "Flutter Style Kit",
+                "rep4": "Flutter ThemeData"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quel est l'équivalent du setState() dans Flutter?",
+            "reponses": {
+                "rep1": "setState()",
+                "rep2": "updateState()",
+                "rep3": "setStateData()",
+                "rep4": "updateData()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est l'outil principal utilisé pour la gestion des dépendances dans un projet Flutter?",
+            "reponses": {
+                "rep1": "Gradle",
+                "rep2": "Maven",
+                "rep3": "CocoaPods",
+                "rep4": "pub"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quel widget Flutter est utilisé pour afficher une liste de défilement?",
+            "reponses": {
+                "rep1": "ListTile",
+                "rep2": "ListView",
+                "rep3": "ScrollList",
+                "rep4": "ScrollWidget"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle méthode Flutter est utilisée pour naviguer entre différentes routes?",
+            "reponses": {
+                "rep1": "navigateTo()",
+                "rep2": "goTo()",
+                "rep3": "push()",
+                "rep4": "navigate()"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quel est l'élément de base de l'interface utilisateur dans Flutter?",
+            "reponses": {
+                "rep1": "Widget",
+                "rep2": "Element",
+                "rep3": "UIObject",
+                "rep4": "Component"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est le système de gestion d'état recommandé pour les applications Flutter?",
+            "reponses": {
+                "rep1": "Provider",
+                "rep2": "Redux",
+                "rep3": "MobX",
+                "rep4": "StatefulWidgets"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est l'équivalent de 'onclick' dans Flutter?",
+            "reponses": {
+                "rep1": "onTap",
+                "rep2": "onPress",
+                "rep3": "onSelect",
+                "rep4": "onTouch"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quel est le fichier de configuration utilisé pour définir les métadonnées de l'application dans Flutter?",
+            "reponses": {
+                "rep1": "AndroidManifest.xml",
+                "rep2": "Info.plist",
+                "rep3": "package.json",
+                "rep4": "pubspec.yaml"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quel widget Flutter est utilisé pour afficher du texte avec mise en forme?",
+            "reponses": {
+                "rep1": "TextSpan",
+                "rep2": "FormattedText",
+                "rep3": "Text",
+                "rep4": "RichText"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour exécuter un projet Flutter dans un émulateur ou un appareil physique?",
+            "reponses": {
+                "rep1": "flutter build",
+                "rep2": "flutter compile",
+                "rep3": "flutter run",
+                "rep4": "flutter install"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle fonction Flutter est utilisée pour démarrer l'application?",
+            "reponses": {
+                "rep1": "startApp()",
+                "rep2": "main()",
+                "rep3": "runApp()",
+                "rep4": "launchApp()"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour créer un nouveau projet Flutter à partir de la ligne de commande?",
+            "reponses": {
+                "rep1": "flutter new",
+                "rep2": "flutter create",
+                "rep3": "flutter init",
+                "rep4": "flutter start"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est le principal objectif du fichier pubspec.yaml dans un projet Flutter?",
+            "reponses": {
+                "rep1": "Définir la structure de l'interface utilisateur",
+                "rep2": "Spécifier les dépendances du projet",
+                "rep3": "Configurer les ressources de l'application",
+                "rep4": "Définir les paramètres de compilation"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est l'outil recommandé pour le débogage des applications Flutter?",
+            "reponses": {
+                "rep1": "Flutter Inspector",
+                "rep2": "Flutter Debugger",
+                "rep3": "Dart DevTools",
+                "rep4": "Flutter Monitor"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quel est le principe fondamental de la programmation réactive dans Flutter?",
+            "reponses": {
+                "rep1": "Stateful Programming",
+                "rep2": "Observer Pattern",
+                "rep3": "MVVM Architecture",
+                "rep4": "Functional Programming"
+            },
+            "correcte": "rep2"
+        }
+    ]
+}

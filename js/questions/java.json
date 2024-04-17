@@ -1,0 +1,204 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que Java?",
+            "reponses": {
+                "rep1": "Un langage de balisage",
+                "rep2": "Un langage de programmation orienté objet",
+                "rep3": "Un framework de développement web",
+                "rep4": "Un système de gestion de base de données"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la différence entre JDK et JRE en Java?",
+            "reponses": {
+                "rep1": "JDK est un ensemble d'outils de développement, tandis que JRE est un environnement d'exécution",
+                "rep2": "JRE est utilisé pour le développement, tandis que JDK est utilisé pour l'exécution",
+                "rep3": "JDK est utilisé pour exécuter du code Java, tandis que JRE est utilisé pour le développement",
+                "rep4": "Il n'y a pas de différence, ce sont des termes interchangeables"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Qu'est-ce que l'héritage en Java?",
+            "reponses": {
+                "rep1": "Un processus de copier les méthodes et les propriétés d'une classe à une autre",
+                "rep2": "Une fonctionnalité permettant à une classe d'implémenter plusieurs interfaces",
+                "rep3": "Un mécanisme permettant à une classe de partager les méthodes et les propriétés d'une autre classe",
+                "rep4": "Un moyen d'ajouter de nouvelles méthodes à une classe existante"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la signature de la méthode main() en Java?",
+            "reponses": {
+                "rep1": "public void main(String[] args)",
+                "rep2": "public static int main(String[] args)",
+                "rep3": "public static void main(String[] args)",
+                "rep4": "public static void main()"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la différence entre les classes abstraites et les interfaces en Java?",
+            "reponses": {
+                "rep1": "Les classes abstraites peuvent avoir des méthodes implémentées, tandis que les interfaces ne peuvent pas",
+                "rep2": "Les interfaces peuvent contenir des variables membres, tandis que les classes abstraites ne le peuvent pas",
+                "rep3": "Les classes abstraites peuvent être instanciées, tandis que les interfaces ne le peuvent pas",
+                "rep4": "Il n'y a pas de différence, ce sont des concepts similaires"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre une classe et un objet en Java?",
+            "reponses": {
+                "rep1": "Une classe est une instance d'un objet",
+                "rep2": "Un objet est une instance d'une classe",
+                "rep3": "Une classe est une collection d'objets",
+                "rep4": "Un objet est une collection de classes"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la sortie de ce code en Java : System.out.println(10 > 9)?",
+            "reponses": {
+                "rep1": "true",
+                "rep2": "false",
+                "rep3": "0",
+                "rep4": "1"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la sortie de ce code en Java : String s1 = new String('hello'); String s2 = new String('hello'); System.out.println(s1 == s2);",
+            "reponses": {
+                "rep1": "true",
+                "rep2": "false",
+                "rep3": "Compilation Error",
+                "rep4": "NullPointerException"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Qu'est-ce qu'une exception en Java?",
+            "reponses": {
+                "rep1": "Une erreur de compilation",
+                "rep2": "Un comportement indésirable du programme",
+                "rep3": "Une condition anormale qui se produit pendant l'exécution du programme",
+                "rep4": "Une situation où le programme termine prématurément"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la sortie de ce code en Java : int x = 5; System.out.println(x++);",
+            "reponses": {
+                "rep1": "5",
+                "rep2": "6",
+                "rep3": "4",
+                "rep4": "Compilation Error"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la syntaxe correcte pour une boucle 'for' en Java?",
+            "reponses": {
+                "rep1": "for(int i = 0; i < 5; i++)",
+                "rep2": "for i = 0; i < 5; i++",
+                "rep3": "for(i = 0; i < 5; i++)",
+                "rep4": "for(int i = 0; i < 5)"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour lire une entrée de l'utilisateur en Java?",
+            "reponses": {
+                "rep1": "System.in.read()",
+                "rep2": "readLine()",
+                "rep3": "Console.read()",
+                "rep4": "Scanner.nextLine()"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quelle est la classe de base pour toutes les exceptions en Java?",
+            "reponses": {
+                "rep1": "Exception",
+                "rep2": "Throwable",
+                "rep3": "RuntimeException",
+                "rep4": "Error"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Qu'est-ce que le polymorphisme en Java?",
+            "reponses": {
+                "rep1": "La capacité d'une classe à hériter de plusieurs interfaces",
+                "rep2": "La capacité d'une classe à avoir plusieurs méthodes avec le même nom mais avec des paramètres différents",
+                "rep3": "La capacité d'une classe à hériter de plusieurs classes",
+                "rep4": "La capacité d'une classe à avoir plusieurs constructeurs"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Qu'est-ce qu'une interface en Java?",
+            "reponses": {
+                "rep1": "Une classe abstraite",
+                "rep2": "Un ensemble de méthodes abstraites",
+                "rep3": "Un ensemble de méthodes concrètes",
+                "rep4": "Un ensemble de variables statiques"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la sortie de ce code en Java : int[] numbers = {1, 2, 3, 4, 5}; System.out.println(numbers[10]);",
+            "reponses": {
+                "rep1": "0",
+                "rep2": "10",
+                "rep3": "10",
+                "rep4": "ArrayIndexOutOfBoundsException"
+            },
+            "correcte": "rep4"
+        },
+        {
+            "question": "Quelle est la sortie de ce code en Java : int x = 5, y = 10; System.out.println(x > y ? x : y);",
+            "reponses": {
+                "rep1": "5",
+                "rep2": "10",
+                "rep3": "true",
+                "rep4": "false"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour convertir une chaîne en un entier en Java?",
+            "reponses": {
+                "rep1": "parseInt()",
+                "rep2": "convertToInt()",
+                "rep3": "toInteger()",
+                "rep4": "intValue()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la sortie de ce code en Java : String s1 = 'hello'; String s2 = 'world'; System.out.println(s1.concat(s2));",
+            "reponses": {
+                "rep1": "hello",
+                "rep2": "world",
+                "rep3": "helloworld",
+                "rep4": "Compilation Error"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la méthode utilisée pour récupérer la longueur d'une chaîne en Java?",
+            "reponses": {
+                "rep1": "length()",
+                "rep2": "size()",
+                "rep3": "count()",
+                "rep4": "sizeOf()"
+            },
+            "correcte": "rep1"
+        }
+    ]
+}

@@ -1,0 +1,194 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que C#?",
+            "reponses": {
+                "rep1": "Un framework de développement d'applications mobiles",
+                "rep2": "Un langage de programmation orienté objet développé par Microsoft",
+                "rep3": "Un système de gestion de base de données",
+                "rep4": "Un framework JavaScript"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Qu'est-ce que .NET?",
+            "reponses": {
+                "rep1": "Un système d'exploitation",
+                "rep2": "Une bibliothèque JavaScript",
+                "rep3": "Un framework de développement logiciel développé par Microsoft",
+                "rep4": "Un langage de programmation"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la différence entre C# et .NET?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep2": "C# est un langage de programmation, tandis que .NET est un framework",
+                "rep3": ".NET est un langage de programmation, tandis que C# est un framework",
+                "rep4": "C# est un système d'exploitation, tandis que .NET est une bibliothèque JavaScript"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est le rôle de Visual Studio dans le développement C# .NET?",
+            "reponses": {
+                "rep1": "Un éditeur de texte",
+                "rep2": "Un système de gestion de base de données",
+                "rep3": "Un environnement de développement intégré (IDE)",
+                "rep4": "Un outil de virtualisation"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la syntaxe pour déclarer une variable en C#?",
+            "reponses": {
+                "rep1": "var myVariable = value;",
+                "rep2": "let myVariable = value;",
+                "rep3": "myVariable = value;",
+                "rep4": "int myVariable = value;"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre une classe et une structure en C#?",
+            "reponses": {
+                "rep1": "Les structures peuvent avoir des méthodes, tandis que les classes ne le peuvent pas",
+                "rep2": "Les classes peuvent être instanciées, tandis que les structures ne le peuvent pas",
+                "rep3": "Les structures sont des types de valeur, tandis que les classes sont des types de référence",
+                "rep4": "Il n'y a pas de différence, ce sont des concepts similaires"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Qu'est-ce que LINQ?",
+            "reponses": {
+                "rep1": "Une bibliothèque pour créer des interfaces utilisateur",
+                "rep2": "Un système de gestion des erreurs",
+                "rep3": "Un langage de requête intégré pour interagir avec des collections de données en .NET",
+                "rep4": "Un outil de gestion des versions"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la classe de base de toutes les classes dans le framework .NET?",
+            "reponses": {
+                "rep1": "System.Object",
+                "rep2": "System.Base",
+                "rep3": "System.Main",
+                "rep4": "System.Class"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la méthode principale dans une application console C#?",
+            "reponses": {
+                "rep1": "public void start()",
+                "rep2": "public static void Main(string[] args)",
+                "rep3": "public int main()",
+                "rep4": "public void Main()"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la différence entre une méthode asynchrone et une méthode synchrone en C#?",
+            "reponses": {
+                "rep1": "Les méthodes synchrones peuvent être appelées de manière asynchrone, tandis que les méthodes asynchrones ne le peuvent pas",
+                "rep2": "Les méthodes asynchrones peuvent être appelées de manière asynchrone, tandis que les méthodes synchrones ne le peuvent pas",
+                "rep3": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep4": "Les méthodes synchrones sont plus rapides que les méthodes asynchrones"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour compiler un fichier C# en utilisant le compilateur en ligne de commande?",
+            "reponses": {
+                "rep1": "csc filename.cs",
+                "rep2": "compile filename.cs",
+                "rep3": "dotnet compile filename.cs",
+                "rep4": "run filename.cs"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Qu'est-ce que l'héritage multiple en C#?",
+            "reponses": {
+                "rep1": "La capacité d'une classe à hériter de plusieurs interfaces",
+                "rep2": "La capacité d'une classe à hériter de plusieurs classes de base",
+                "rep3": "La capacité d'une classe à avoir plusieurs constructeurs",
+                "rep4": "La capacité d'une classe à avoir plusieurs méthodes avec le même nom mais avec des paramètres différents"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la commande utilisée pour installer un paquet NuGet dans un projet C#?",
+            "reponses": {
+                "rep1": "nuget install packageName",
+                "rep2": "install-package packageName",
+                "rep3": "dotnet add packageName",
+                "rep4": "dotnet install packageName"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est le mot-clé utilisé pour marquer une classe afin qu'elle ne puisse pas être héritée?",
+            "reponses": {
+                "rep1": "sealed",
+                "rep2": "final",
+                "rep3": "static",
+                "rep4": "abstract"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Quelle est la différence entre un constructeur et une méthode en C#?",
+            "reponses": {
+                "rep1": "Il n'y a pas de différence, ce sont des termes interchangeables",
+                "rep2": "Un constructeur est appelé lors de la création d'un objet, tandis qu'une méthode est appelée pour effectuer une action spécifique",
+                "rep3": "Un constructeur peut avoir une valeur de retour, tandis qu'une méthode ne le peut pas",
+                "rep4": "Les constructeurs peuvent être hérités, tandis que les méthodes ne le peuvent pas"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quel est le rôle de l'interface IDisposable en C#?",
+            "reponses": {
+                "rep1": "Gérer les exceptions",
+                "rep2": "Gérer les requêtes HTTP",
+                "rep3": "Gérer les ressources non managées",
+                "rep4": "Gérer les événements"
+            },
+            "correcte": "rep3"
+        },
+        {
+            "question": "Quelle est la différence entre les types de données int et float en C#?",
+            "reponses": {
+                "rep1": "int est un type de données pour les nombres à virgule flottante, tandis que float est un type de données pour les entiers",
+                "rep2": "int est un type de données pour les entiers, tandis que float est un type de données pour les nombres à virgule flottante",
+                "rep3": "int est un type de données pour les chaînes de caractères, tandis que float est un type de données pour les nombres à virgule flottante",
+                "rep4": "int est un type de données pour les nombres à virgule flottante, tandis que float est un type de données pour les entiers"
+            },
+            "correcte": "rep2"
+        },
+        {
+            "question": "Quelle est la méthode principale utilisée pour lire une ligne de texte à partir de la console en C#?",
+            "reponses": {
+                "rep1": "Console.ReadLine()",
+                "rep2": "Console.Read()",
+                "rep3": "Console.Write()",
+                "rep4": "Console.WriteLine()"
+            },
+            "correcte": "rep1"
+        },
+        {
+            "question": "Qu'est-ce qu'un delegate en C#?",
+            "reponses": {
+                "rep1": "Une variable locale",
+                "rep2": "Une fonctionnalité de sécurité",
+                "rep3": "Un type de données utilisé pour référencer une méthode avec un ensemble de paramètres spécifiés et un type de retour spécifié",
+                "rep4": "Un type de données pour les valeurs booléennes"
+            },
+            "correcte": "rep3"
+        }
+    ]
+}

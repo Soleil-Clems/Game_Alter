@@ -1,14 +1,14 @@
 import Player from '../Player.js';
 import Entreprise from '../Entreprise.js';
 import Questions from '../Questions.js';
-import react from '../questions/react.json' assert { type: 'json' };
-import reactred from '../questions/reactred.json' assert { type: 'json' };
-import mern from '../questions/mern.json' assert { type: 'json' };
-import node from '../questions/node.json' assert { type: 'json' };
-import phplar from '../questions/phplar.json' assert { type: 'json' };
-import java from '../questions/java.json' assert { type: 'json' };
-import flutter from '../questions/flutter.json' assert { type: 'json' };
-import csharp from '../questions/csharp.json' assert { type: 'json' };
+import react from '../questions/react.json' with { type: 'json' };
+import reactred from '../questions/reactred.json' with { type: 'json' };
+import mern from '../questions/mern.json' with { type: 'json' };
+import node from '../questions/node.json' with { type: 'json' };
+import phplar from '../questions/phplar.json' with { type: 'json' };
+import java from '../questions/java.json' with { type: 'json' };
+import flutter from '../questions/flutter.json' with { type: 'json' };
+import csharp from '../questions/csharp.json' with { type: 'json' };
 
 export default class Scene2 extends Phaser.Scene {
     constructor() {
